@@ -1,0 +1,113 @@
+﻿@model School.Entities.Students
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit Student's Data :</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Students</legend>
+
+        @Html.HiddenFor(model => model.Id)
+
+        <div>
+            @Html.LabelFor(model => model.Name)
+        </div>
+        <div>
+            @Html.EditorFor(model => model.Name)
+            @Html.ValidationMessageFor(model => model.Name)
+        </div>
+
+        <div>
+            @Html.LabelFor(model => model.Address)
+        </div>
+        <div>
+            @Html.EditorFor(model => model.Address)
+            @Html.ValidationMessageFor(model => model.Address)
+        </div>
+
+        <div >
+            @Html.Label("Class")
+        </div>
+        <div>
+            @*<input type="hidden" id="ClassId"/>*@
+            <select id="classes">
+                <option></option>
+                @foreach (var clas in ViewBag.Classes)
+                {   
+                    if(clas.Id==Model.ClassId)
+                    {
+                        <option value="@clas.Id" selected="selected">@clas.ClassNumber</option>
+                    }
+                    else
+                    {
+                        <option value="@clas.Id">@clas.ClassNumber</option>
+                    }
+                }
+            </select>
+        </div>
+
+        <div>
+            @Html.Label("Birth date")
+
+        </div>
+        <div>
+            @Html.TextBox("Birthdate",Model.Birthdate.ToShortDateString())
+            @Html.ValidationMessageFor(model => model.Birthdate)
+        </div>
+
+        <div>
+            @Html.LabelFor(model => model.Gender)
+        </div>
+        <div>
+            @*@Html.EditorFor(model => model.Gender)
+            @Html.ValidationMessageFor(model => model.Gender)*@
+              <select id="Gender">
+                  @if(Model.Gender=="Male")
+                  {
+                      <option value="1" selected="selected">Male</option>
+                  }
+                  else
+                  {
+                      <option value="2" selected="selected">Female</option>
+                  }
+            </select>
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<script>
+        //$('#classes').change(function () {
+        //    var selectedClass = $('#classes option:selected').val();
+        //    $("#ClassId").val(selectedClass);
+    //});
+    $(document).ready(function ($) {
+        var selectedClass = $('#classes option:selected').val();
+        var selectedGender = $('#Gender option:selected').text;
+
+        $.ajax({
+            url: "/Students/Create",
+            data: {id:$("#Id"), name: $("#Name"), address: $("#Address"), classId: selectedClass, birthDate: $("#Birthdate"), gender: selectedGender },
+            contentType: "application/json",
+            success: function () {
+
+            }
+        });
+    });
+</script>

@@ -1,0 +1,7 @@
+<Modules>
+  <Module PersistentId="0987DE74-1895-4427-A3FF-643EC2B21856" ModuleId="SchoolWithCodeSmithNettiers" />
+  <Module PersistentId="129D0B99-7F96-4B47-8D8E-476CEEE9C99B" ModuleId="School.Site" />
+  <Module PersistentId="041C1BBE-0BFB-4D45-8125-9AB0BBC09A92" ModuleId="School.Data" />
+  <Module PersistentId="20E43088-4618-4F4A-B8AD-FC31B50D94CD" ModuleId="School.Entities" />
+  <Module PersistentId="1DCAB031-308A-4581-AFA8-BD29F45A1357" ModuleId="School.Website" />
+</Modules>

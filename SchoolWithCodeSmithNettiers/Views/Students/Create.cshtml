@@ -1,0 +1,89 @@
+﻿@model School.Entities.Students
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Add New Student :</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Students</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Name)
+            @Html.ValidationMessageFor(model => model.Name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Address)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Address)
+            @Html.ValidationMessageFor(model => model.Address)
+        </div>
+
+        <div class="editor-label">
+            @Html.Label("Class")
+        </div>
+        <div class="editor-field">
+            @*            @Html.EditorFor(model => model.ClassId)
+            @Html.ValidationMessageFor(model => model.ClassId)*@
+            <select id="classes">
+                <option></option>
+                @foreach (var clas in ViewBag.Classes)
+                {
+                    <option value="@clas.Id">@clas.Number</option>
+                }
+            </select>
+        </div>
+
+        <div class="editor-label">
+            @Html.Label("Birth Date")
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Birthdate)
+            @Html.ValidationMessageFor(model => model.Birthdate)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Gender)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Gender)
+            @Html.ValidationMessageFor(model => model.Gender)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<script>
+    $(document).ready(function ($) {
+        var selectedClass = $('#classes option:selected').val();
+       $.ajax({
+           url: "/Students/Create",
+           data: { name: $("#Name"), address: $("#Address"), classId: selectedClass, birthDate: $("#Birthdate"), gender: $("#Gender") },
+           //data: { id: type, regionCode: selectedRegion, year: null },
+            contentType: "application/json",
+            success: function (success) {
+                
+            }
+        });
+    });
+</script>

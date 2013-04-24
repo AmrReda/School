@@ -1,0 +1,17 @@
+C:\Users\Noha\Documents\CodeSmith Generator\Templates\NetTiers\School2\School.Data\bin\Debug\School.Data.dll
+C:\Users\Noha\Documents\CodeSmith Generator\Templates\NetTiers\School2\School.Data\bin\Debug\School.Data.pdb
+C:\Users\Noha\Documents\CodeSmith Generator\Templates\NetTiers\School2\School.Data\bin\Debug\School.Data.xml
+C:\Users\Noha\Documents\CodeSmith Generator\Templates\NetTiers\School2\School.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Noha\Documents\CodeSmith Generator\Templates\NetTiers\School2\School.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Noha\Documents\CodeSmith Generator\Templates\NetTiers\School2\School.Data\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Noha\Documents\CodeSmith Generator\Templates\NetTiers\School2\School.Data\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Noha\Documents\CodeSmith Generator\Templates\NetTiers\School2\School.Data\bin\Debug\School.Entities.dll
+C:\Users\Noha\Documents\CodeSmith Generator\Templates\NetTiers\School2\School.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\Users\Noha\Documents\CodeSmith Generator\Templates\NetTiers\School2\School.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+C:\Users\Noha\Documents\CodeSmith Generator\Templates\NetTiers\School2\School.Data\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Noha\Documents\CodeSmith Generator\Templates\NetTiers\School2\School.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+C:\Users\Noha\Documents\CodeSmith Generator\Templates\NetTiers\School2\School.Data\bin\Debug\School.Entities.pdb
+C:\Users\Noha\Documents\CodeSmith Generator\Templates\NetTiers\School2\School.Data\bin\Debug\School.Entities.xml
+C:\Users\Noha\Documents\CodeSmith Generator\Templates\NetTiers\School2\School.Data\obj\Debug\School.Data.csprojResolveAssemblyReference.cache
+C:\Users\Noha\Documents\CodeSmith Generator\Templates\NetTiers\School2\School.Data\obj\Debug\School.Data.dll
+C:\Users\Noha\Documents\CodeSmith Generator\Templates\NetTiers\School2\School.Data\obj\Debug\School.Data.pdb

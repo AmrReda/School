@@ -1,0 +1,136 @@
+<NetTiersReport DALNameSpace="School.Data" SolutionLink="file:\\\C:\Users\Noha\Documents\CodeSmith Generator\Templates\NetTiers\School2\School.sln" ConnectionString="Data Source=NOHA\NOHA;Initial Catalog=School;Integrated Security=True" FactoryType="School.Entities.EntityFactory">
+  <initialization startTime="130112345308816991" executionTime="00:00:27.5114924">
+    <Message level="0" startTime="130112345380518639" message="Validating parameters." />
+    <Message level="2" startTime="130112345509759691" message="Generating .netTiers Entity Mapping" />
+    <Message level="0" startTime="130112345525332257" message="Loading templates." executionTime="00:00:04.1116692" />
+    <Message level="0" startTime="130112345566818988" message="Creating folders and copying dependencies." />
+  </initialization>
+  <customStoredProcedures includeCustoms="true" />
+  <common startTime="130112345583931915" executionTime="00:00:55.4550164">
+    <File name="ListBase.cs" startTime="130112345583942547" />
+    <File name="TList.cs" startTime="130112345588382525" />
+    <File name="VList.cs" startTime="130112345609355928" />
+    <File name="WeakRefDictionary.cs" startTime="130112345611636349" />
+    <File name="TestUtility.cs" startTime="130112345617887309" />
+    <File name="IEntity.cs" startTime="130112345620667779" />
+    <File name="IEntityId.cs" startTime="130112345709472226" />
+    <File name="IEntityKey.cs" startTime="130112345709542245" />
+    <File name="EntityFactory.cs" startTime="130112345709612245" />
+    <File name="EntityFactoryBase.cs" startTime="130112345709782239" />
+    <File name="IEntityFactory.cs" startTime="130112345710442384" />
+    <File name="IEntityCacheItem.cs" startTime="130112345710552399" />
+    <File name="EntityCache.cs" startTime="130112345710622855" />
+    <File name="EntityLocator.cs" startTime="130112345711092485" />
+    <File name="EntityManager.cs" startTime="130112345711432525" />
+    <File name="BrokenRule.cs" startTime="130112345712462757" />
+    <File name="BrokenRulesList.cs" startTime="130112345712562727" />
+    <File name="CommonRules.cs" startTime="130112345712703077" />
+    <File name="ValidationRuleArgs.cs" startTime="130112345715163158" />
+    <File name="ValidationRuleHandler.cs" startTime="130112345715723198" />
+    <File name="ValidationRuleInfo.cs" startTime="130112345715793228" />
+    <File name="ValidationRules.cs" startTime="130112345716053247" />
+    <File name="EntityBaseCore.generated.cs" startTime="130112345716453361" />
+    <File name="EntityBase.cs" startTime="130112345717663590" />
+    <File name="EntityKeyBaseCore.generated.cs" startTime="130112345717733567" />
+    <File name="EntityKeyBase.cs" startTime="130112345718543711" />
+    <File name="EntityFilter.cs" startTime="130112345718613712" />
+    <File name="EntityPropertyComparer.cs" startTime="130112345720694058" />
+    <File name="GenericTypeConverter.cs" startTime="130112345720774086" />
+    <File name="Procedures.xml" startTime="130112345721004106" />
+    <File name="Utility.cs" startTime="130112345991448084" />
+    <File name="ITransactionManager.cs" startTime="130112345993568486" />
+    <File name="TransactionManager.cs" startTime="130112345993828534" />
+    <File name="FileConfigurationSouce.cs" startTime="130112345994438639" />
+    <File name="FileConfigurationSouceElement.cs" startTime="130112345995198754" />
+    <File name="DataRepository.cs" startTime="130112345995368783" />
+    <File name="IEntityProvider.cs" startTime="130112345999599511" />
+    <File name="IEntityViewProvider.cs" startTime="130112346003200064" />
+    <File name="EntityProviderBase.cs" startTime="130112346003540104" />
+    <File name="EntityProviderBaseCore.generated.cs" startTime="130112346003840167" />
+    <File name="EntityViewProviderBase.cs" startTime="130112346011081474" />
+    <File name="EntityViewProviderBaseCore.generated.cs" startTime="130112346011321575" />
+    <File name="INetTiersProvider.cs" startTime="130112346020602878" />
+    <File name="NetTiersProvider.cs" startTime="130112346021853340" />
+    <File name="NetTiersProviderBase.cs" startTime="130112346021943643" />
+    <File name="NetTiersProviderCollection.cs" startTime="130112346027123948" />
+    <File name="NetTiersServiceSection.cs" startTime="130112346027864080" />
+    <File name="ExpressionParserBase.cs" startTime="130112346027964097" />
+    <File name="SqlExpressionParser.cs" startTime="130112346028514192" />
+    <File name="SqlStringBuilder.cs" startTime="130112346035185327" />
+    <File name="SqlUtil.cs" startTime="130112346053898268" />
+    <File name="StringTokenizer.cs" startTime="130112346059519223" />
+    <File name="SqlClient\SqlNetTiersProvider.cs" startTime="130112346060079292" />
+    <File name="StoredProcedureProvider.cs" startTime="130112346061759601" />
+    <File name="BaseDataSource.cs" startTime="130112346063419855" />
+    <File name="BaseDataSourceDesigner.cs" startTime="130112346070390963" />
+    <File name="CustomDataSource.cs" startTime="130112346072551325" />
+    <File name="CustomDataSourceDesigner.cs" startTime="130112346076232462" />
+    <File name="CustomParameter.cs" startTime="130112346076282420" />
+    <File name="DataParameter.cs" startTime="130112346077212102" />
+    <File name="EntityDataSource.cs" startTime="130112346077452150" />
+    <File name="EntityDataSourceFilter.cs" startTime="130112346084053218" />
+    <File name="EntityRelationship.cs" startTime="130112346084593310" />
+    <File name="EntityRelationshipMember.cs" startTime="130112346086323553" />
+    <File name="EntityTransactionModule.cs" startTime="130112346088593959" />
+    <File name="ILinkedDataSource.cs" startTime="130112346088924068" />
+    <File name="ManyToManyListRelationship.cs" startTime="130112346089394337" />
+    <File name="ManyToManyViewRelationship.cs" startTime="130112346089534089" />
+    <File name="OneToManyGridRelationship.cs" startTime="130112346089654089" />
+    <File name="OneToOneViewRelationship.cs" startTime="130112346090534275" />
+    <File name="ProviderDataSource.cs" startTime="130112346090654293" />
+    <File name="ProviderDataSourceDesigner.cs" startTime="130112346091994733" />
+    <File name="ReadOnlyDataSource.cs" startTime="130112346092414641" />
+    <File name="ReadOnlyDataSourceDesigner.cs" startTime="130112346092735433" />
+    <File name="SqlParameter.cs" startTime="130112346093144698" />
+    <File name="ClassesDataSource.cs" startTime="130112346094464900" />
+    <File name="StudentsDataSource.cs" startTime="130112346096115192" />
+    <File name="FormUtil.cs" startTime="130112346096845297" />
+    <File name="FormUtilBase.generated.cs" startTime="130112346096945284" />
+    <File name="MultiBindableTemplate.cs" startTime="130112346102826885" />
+    <File name="MultiFormView.cs" startTime="130112346103586444" />
+    <File name="EntityGridView.cs" startTime="130112346104046863" />
+    <File name="EntityDropDownList.cs" startTime="130112346106456862" />
+    <File name="BoundEntityDropDownField.cs" startTime="130112346107887096" />
+    <File name="BoundRadioButtonField.cs" startTime="130112346108547182" />
+    <File name="GridViewSearchPanel.cs" startTime="130112346108887264" />
+    <File name="GridViewSearchPanelState.cs" startTime="130112346111157629" />
+    <File name="EntityLabel.cs" startTime="130112346111348600" />
+    <File name="HyperlinkField.cs" startTime="130112346111547698" />
+    <File name="ClassesRepeater.cs" startTime="130112346112357896" />
+    <File name="StudentsRepeater.cs" startTime="130112346112808466" />
+    <File name="Web.config" startTime="130112346112848124" />
+    <File name="Enterprise Library v5_0 website configuration files" startTime="130112346113408057" />
+    <File name="Default.aspx" startTime="130112346113778061" />
+    <File name="Default.aspx.cs" startTime="130112346114158109" />
+    <File name="School.sln" startTime="130112346118198802" />
+    <File name="School.Entities.csproj" startTime="130112346119488958" />
+    <File name="School.Data.Data.csproj" startTime="130112346127240229" />
+    <File name="School.Entities.Data.SqlClient.csproj" startTime="130112346127270257" />
+    <File name="School.Web.csproj" startTime="130112346127300256" />
+    <File name="School.build" startTime="130112346127340234" />
+    <File name="EntityHelper.cs" startTime="130112346128280441" />
+    <File name="EntityUtil.cs" startTime="130112346129980703" />
+  </common>
+  <Table name="Classes" startTime="130112346138492047" executionTime="00:00:05.3198685">
+    <File name="Classes.generated.cs" startTime="130112346138522052" executionTime="00:00:02.5924280" />
+    <File name="IClasses.cs" startTime="130112346164446332" executionTime="00:00:00.0190013" />
+    <File name="Classes.cs" startTime="130112346164636345" executionTime="00:00:00.0090001" />
+    <File name="ClassesProviderBase.generatedCore.cs" startTime="130112346164726346" executionTime="00:00:01.2492052" />
+    <File name="ClassesProviderBase.generated.cs" startTime="130112346177218398" executionTime="00:00:00.0070000" />
+    <File name="SqlClient\SqlClassesProviderBase.generated.cs" startTime="130112346177288398" executionTime="00:00:01.4232328" />
+    <File name="SqlClient\ClassesTest.cs" startTime="130112346191530730" executionTime="00:00:00.0160002" />
+  </Table>
+  <Table name="Students" startTime="130112346191690732" executionTime="00:00:09.6315890">
+    <File name="Students.generated.cs" startTime="130112346191690732" executionTime="00:00:00.7451238" />
+    <File name="IStudents.cs" startTime="130112346199141970" executionTime="00:00:00.0030005" />
+    <File name="Students.cs" startTime="130112346199182014" executionTime="00:00:00.0019965" />
+    <File name="StudentsProviderBase.generatedCore.cs" startTime="130112346199201979" executionTime="00:00:08.8694481" />
+    <File name="StudentsProviderBase.generated.cs" startTime="130112346287896460" executionTime="00:00:00.0020006" />
+    <File name="SqlClient\SqlStudentsProviderBase.generated.cs" startTime="130112346287926411" executionTime="00:00:00.0060020" />
+    <File name="SqlClient\StudentsTest.cs" startTime="130112346287986431" executionTime="00:00:00.0020191" />
+  </Table>
+  <summary>
+    <objectCount>118</objectCount>
+    <messageCount>0</messageCount>
+  </summary>
+</NetTiersReport>
